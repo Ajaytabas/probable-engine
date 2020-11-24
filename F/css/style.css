@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+header{
+    background-image: url(../1.jpg);
+    height: 100vh;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: darkred;
+    padding: 10px 70px;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: olive;
+    color: white;
+}
+
+ul li.active a{
+    background-color: olive;
+    color: white;
+}
+
+
+
+.vision{
+    font-family: Helvetica;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 200px;
+    text-transform: uppercase;
+    color: darkslateblue;
+
+}
+.vtext{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: lighter; 
+    color: darkslategray;
+    
+}
+.Mission{
+    font-family: Helvetica;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 260px;
+    text-transform: uppercase;
+    color: darkslateblue;
+}
+.mtext{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: darkslategray;  
+}
+body{
+    background-image: url(../1.jpg);
+    }
+
+.bg{
+    background-image: url(../1.jpg);
+}
+
+.logo {
+    text-align: center;
+}
+.pcw {
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-size: 18px;
+    font-style: inherit;
+  }
+  
+.pcw h1 {
+    line-height: 140px;
+    color: maroon;
+    font-size: 50px;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+  }
+  .contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+  }
+  .txtb{
+    border:1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+  }
+  .txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+  }
+  .btn{
+    display: inline-block;
+    background: darkslategray;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+  }
+  .blmoon {
+      width: 700;
+      height: 700;
+      float: left;
+  }
+ 
+ 
+ 
+ 
+  
+
+  
+
+
